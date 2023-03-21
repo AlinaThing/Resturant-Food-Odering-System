@@ -1,0 +1,9 @@
+table{
+    border-collapse : collapse;
+}
+.error{
+    color : red;
+}
+.success{
+    color : green;
+}

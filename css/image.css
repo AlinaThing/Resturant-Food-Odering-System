@@ -1,0 +1,22 @@
+.row{
+    display : grid;
+    grid-template-columns: auto auto;
+    padding-right : 500px;
+}
+*{
+    box-sizing:border-box;
+}
+.set{
+    display:flex;
+}
+.image{
+    flex : 45%;
+    padding : 5px;
+}
+img{
+    width : 500px; 
+    height : 250px;
+}
+.list-inline ul li{
+    list-style : none;
+}

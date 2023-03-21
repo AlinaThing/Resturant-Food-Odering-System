@@ -1,0 +1,45 @@
+body{
+	background-color: antiquewhite;
+}
+fieldset.block{
+    display: inline-block;
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+.form-container{
+	float: left;
+    background: #fff;
+    width: 300px;
+    height: 500px;
+    position: relative;
+    text-align: center;
+    padding:auto;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+}
+#Indicator{
+    width: 100px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-left: 0px;
+    margin-top: 8px;
+    transform: translateX(10);
+    transition: 1s;
+} 
+#LoginForm{
+    left: -300px;
+}
+#RegisterForm{
+    left: 0px;
+}

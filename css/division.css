@@ -1,0 +1,44 @@
+.divide{
+    display : grid;
+    height : 550px;
+    align-content : begin;
+    grid-template-columns : 25% 95%;
+    grid-gap : 5px;
+    background-color : whitesmoke;
+    padding : 10px;
+}
+button{
+    background-color: orangered;
+    width : 60px;
+    height : 40px;
+}
+#choose{
+    float : right;
+}
+.choose ul{
+    float : right;
+    background-color: rgb(36, 21, 35);
+    margin-right : 20px;
+    padding : 20px;
+}
+.choose ul li{
+    list-style : none;
+    color : orangered;
+    margin : 50 20px;
+    display : inline-block;
+}
+table{
+    display : center;
+}
+table, th, td{
+    border : 2px solid black;
+    border-collapse : collapse;
+    text-align: center;
+}
+thead{
+    text-align: center;
+    color : 2px solid black;
+}
+fieldset.block{
+    display : inline-block;
+}
